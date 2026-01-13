@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "tobra",
+    "slug": "tobra",
+    "version": "1.0.0",
+    "scheme": "tobra",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "fbbaff19-26cc-4ed8-9c8e-b41b494f7c15"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fbbaff19-26cc-4ed8-9c8e-b41b494f7c15"
+    },
+    "android": {},
+    "ios": {}
+  }
+}
