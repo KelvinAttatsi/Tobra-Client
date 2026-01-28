@@ -5,9 +5,9 @@ import {
   TextInput,
   TouchableOpacity,
   ActivityIndicator,
-  SafeAreaView,
   StyleSheet,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAuth } from '@/contexts/AuthContext';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useToast } from '@/contexts/ToastContext';

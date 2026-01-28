@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import * as SecureStore from 'expo-secure-store';
-import api from '@/axios';
+import api from '@/api';
 
 interface User {
   id: string;
@@ -49,7 +49,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         email,
         password,
       });
-
 
       const { token, user } = res.data;
 

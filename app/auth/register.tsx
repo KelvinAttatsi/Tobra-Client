@@ -4,11 +4,11 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
-  SafeAreaView,
   ActivityIndicator,
   StyleSheet,
   ScrollView,
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAuth } from '@/contexts/AuthContext';
 import { useToast } from '@/contexts/ToastContext';
 import { useTheme } from '@/contexts/ThemeContext';
@@ -267,7 +267,7 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     borderRadius: 8,
     alignItems: 'center',
-    
+
     borderWidth: 1,
     marginRight: 10,
   },

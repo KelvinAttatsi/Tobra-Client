@@ -1,14 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  ScrollView,
-  SafeAreaView,
-  TouchableOpacity,
-  Image,
-  Alert,
-} from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image, Alert } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useTheme } from '@/contexts/ThemeContext';
 import { useCart } from '@/contexts/CartContext';
 import { useRouter } from 'expo-router';
@@ -279,3 +271,5 @@ const createStyles = (colors: any) =>
       alignItems: 'center',
     },
   });
+
+export default CheckoutComponent;
